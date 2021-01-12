@@ -8,6 +8,10 @@ body::-webkit-scrollbar {
 min-width: 100vw;
 min-height: 100vh;
 }
+.title {
+  text-align: center;
+  position: absolute;
+}
 .first {
 background-image: url('./orange.png');
 background-size: 100% 100%;
