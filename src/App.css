@@ -1,18 +1,37 @@
-body {
-  overflow-y: scroll;
+.App {
+  perspective: 1px;
+  transform-style: preserve-3d;
+  height: 100vh;
+  overflow-x: hidden;
+  
 }
+
 body::-webkit-scrollbar {
   display: none;
 }
 .background {
 min-width: 100vw;
 min-height: 100vh;
+
 }
 .title {
+  
+  font-family: Open Sans;
+  color: white;
   text-align: center;
-  position: absolute;
+  font-size: 7vh;
+  font-weight: 800;
+  position: absolute
 }
 .first {
+  display: flex;
+  flex: 1 0 auto;
+  position: relative;
+  z-index: -1;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  transform: translateZ(-1px) scale(2);
 background-image: url('./orange.png');
 background-size: 100% 100%;
 
