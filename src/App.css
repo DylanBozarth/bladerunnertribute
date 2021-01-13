@@ -3,16 +3,20 @@
   transform-style: preserve-3d;
   height: 100vh;
   overflow-x: hidden;
-  
+  color: white;
+}
+.dock {
+  position: absolute
 }
 .button {
-  position: absolute;
+  
   top: 0;
 }
 .button2 {
-  position: absolute;
-  top: 0;
+  
+  bottom: 0;
   left: 0;
+  
 }
 .none {
   display: none;
