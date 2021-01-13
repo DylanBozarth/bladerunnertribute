@@ -2,15 +2,16 @@ import { useEffect } from "react";
 import "./App.css";
 
 function App() {
-  var audio = new Audio("theme.mp3");
   const Playit = () => {
-audio.play();
-  }
-  useEffect(() => Playit(), [Playit]);
+    var audio = new Audio("theme.mp3");
+    audio.play();
+}
+useEffect(() => {Playit()}, []);
 
   return (
     <div className="App">
-      <div className="background first container-fluid">
+      
+      <div className="background first container-fluid"><button className="button" onClick={Playit}>Play Audio</button>
         <h1 className="title text-center">
           Blade Runner <br /> 2049
         </h1>

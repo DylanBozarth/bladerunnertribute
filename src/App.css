@@ -5,7 +5,13 @@
   overflow-x: hidden;
   
 }
-
+.button {
+  position: absolute;
+  top: 0;
+}
+.none {
+  display: none;
+}
 body::-webkit-scrollbar {
   display: none;
 }
