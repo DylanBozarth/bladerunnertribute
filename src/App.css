@@ -5,19 +5,8 @@
   overflow-x: hidden;
   color: white;
 }
-.dock {
-  position: absolute
-}
-.button {
-  
-  top: 0;
-}
-.button2 {
-  
-  bottom: 0;
-  left: 0;
-  
-}
+
+
 .none {
   display: none;
 }
@@ -50,6 +39,13 @@ min-height: 100vh;
       
       
       0 12px 15px rgba(0, 0, 0, 0.9);
+}
+.dock {
+  background-color: red;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  display: flex;
 }
 .first {
   display: flex;
