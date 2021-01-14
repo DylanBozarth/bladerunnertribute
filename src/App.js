@@ -39,7 +39,7 @@ const { scrollYProgress } = useViewportScroll()
 
       </div>
       <div className="background third">  </div>
-      <div className="background forth">  </div>
+      <div className="background forth"><div className="box">“Dying for the right cause. It's the most human thing we can do.”</div>   </div>
       <div className="background fifth">  </div>
       <div className="background sixth">  <a href="">Buy the movie here</a></div>
     </div>
