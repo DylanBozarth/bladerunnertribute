@@ -30,13 +30,26 @@ min-height: 100vh;
 
 }
 .title {
-  
-  font-family: Open Sans;
+  font-family: 'Orbitron', sans-serif;
+
   color: white;
   text-align: center;
   font-size: 7vh;
   font-weight: 800;
-  position: absolute
+  position: absolute;
+  
+    text-shadow: 
+      0 -1px 0 #fff, 
+      0 1px 0 #2e2e2e, 
+      0 2px 0 #2c2c2c, 
+      0 3px 0 #2a2a2a, 
+      0 4px 0 #282828, 
+      0 5px 0 #262626, 
+      0 6px 0 #242424, 
+      0 7px 0 #222, 
+      
+      
+      0 12px 15px rgba(0, 0, 0, 0.9);
 }
 .first {
   display: flex;
@@ -64,6 +77,21 @@ background-size: 100% 100%;
   position: relative;
   z-index: -1;
   height: 100vh;
+  justify-content: center;
+  align-items: center;
+  transform: translateZ(-1px) scale(2);
+}
+.white {
+  color: white;
+}
+.box {
+  width: 25vw;
+  height: 25vh; 
+  background-color: blue;
+  text-align: center;
+  display: flex;
+  flex: 1 0 auto;
+  z-index: -1;
   justify-content: center;
   align-items: center;
   transform: translateZ(-1px) scale(2);
