@@ -34,13 +34,21 @@ const { scrollYProgress } = useViewportScroll()
        
       </div>
       <div className="background second">
-      <div className="box">SAMPLE TEXT</div> 
+      <div className="box">“Dying for the right cause. It's the most human thing we can do.”</div> 
     
 
       </div>
-      <div className="background third"></div>
+      <div className="background third">  </div>
+      <div className="background forth">  </div>
+      <div className="background fifth">  </div>
+      <div className="background sixth">  <a href="">Buy the movie here</a></div>
     </div>
   );
 }
 
 export default App;
+
+
+//“Pain reminds you the joy you felt was real. More joy, then.”
+//“All the courage in the world cannot alter fact.”
+//The world is built on a wall that separates kind. Tell either side there's no wall, you've bought a war. Or a slaughter.
