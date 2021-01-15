@@ -40,12 +40,16 @@ min-height: 100vh;
       
       0 12px 15px rgba(0, 0, 0, 0.9);
 }
-.dock {
-  background-color: red;
+.master {
+  text-align: center;
   align-items: center;
-  justify-content: center;
-  position: fixed;
-  display: flex;
+}
+.dock {
+ bottom: 0;
+  text-align: center;
+  z-index: 99;
+  align-items: center;
+position: fixed ;
 }
 .first {
   display: flex;

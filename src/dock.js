@@ -16,7 +16,7 @@ export const Dock  = () => {
     SetAudio(new Audio("theme.mp3"));
   }, []);
   return (
-    <div className="container  dock">
+    <div className="  dock">
     {" "}
     <button className="button" onClick={Playit}>
       Play Audio
