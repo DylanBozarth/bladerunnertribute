@@ -1,32 +1,17 @@
-import { useEffect, useState } from "react";
+
 import "./App.css";
 import { motion, useViewportScroll, useTransform } from "framer-motion";
+import { Dock } from "./dock";
+import { Box } from "./box";
 
 function App() {
-  const [audioState, SetAudio] = useState("");
+  
   const { scrollYProgress } = useViewportScroll();
-  const Playit = () => {
-    audioState.play();
-  };
-  const Stopit = () => {
-    audioState.pause();
-  };
-  useEffect(() => {
-    SetAudio(new Audio("theme.mp3"));
-  }, []);
+  
   const scale = useTransform(scrollYProgress, [0, 1], [0.2, 2]);
   return (
     <div className="App">
-      <div className="container  dock">
-        {" "}
-        <button className="button" onClick={Playit}>
-          Play Audio
-        </button>{" "}
-     
-        <button className="button2" onClick={Stopit}>
-          Pause Audio
-        </button>
-      </div>
+      <Dock />
       <div className="background first ">
         <h1 className="title text-center ">
           Blade Runner <br /> 2049
@@ -37,9 +22,7 @@ function App() {
       </div>
       <div className="background third"> </div>
       <div className="background forth">
-        <div className="box">
-          “Dying for the right cause. It's the most human thing we can do.”
-        </div>{" "}
+        <Box text="AAAA"></Box>
       </div>
       <div className="background fifth"> </div>
       <div className="background sixth">
