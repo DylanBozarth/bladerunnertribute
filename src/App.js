@@ -17,9 +17,9 @@ function App() {
           </h1>
         </div>
         <div className="background second"></div>
-        <div className="background third"> </div>
+        <div className="background third"><Box text="“Pain reminds you the joy you felt was real.”"></Box>  </div>
         <div className="background forth">
-          <Box text="“Pain reminds you the joy you felt was real. More joy, then.”"></Box>
+          
         </div>
         <div className="background fifth"> </div>
         <div className="background sixth">
