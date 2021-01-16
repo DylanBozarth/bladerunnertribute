@@ -1,7 +1,6 @@
 
 import { useEffect, useState } from "react";
-
-
+import { motion } from "framer-motion";
 
 export const Dock  = () => {
     const [audioState, SetAudio] = useState("");
@@ -16,15 +15,15 @@ export const Dock  = () => {
     SetAudio(new Audio("theme.mp3"));
   }, []);
   return (
-    <div className="  dock">
+    <motion.div className="  dock">
     {" "}
-    <button className="button" onClick={Playit}>
-      Play Audio
-    </button>{" "}
+    <div className="button" onClick={Playit}>
+    
+    </div>{" "}
  
-    <button className="button2" onClick={Stopit}>
-      Pause Audio
-    </button>
-  </div>
+    <div className="button2" onClick={Stopit}>
+   
+    </div>
+  </motion.div>
   )
 }

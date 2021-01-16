@@ -2,6 +2,7 @@ import "./App.css";
 import { motion, useViewportScroll, useTransform } from "framer-motion";
 import { Dock } from "./dock";
 import { Box } from "./box";
+import { QuoteBox } from "./quotebox";
 
 function App() {
   const { scrollYProgress } = useViewportScroll();
@@ -19,9 +20,9 @@ function App() {
         <div className="background second"></div>
         <div className="background third"><Box text="“Pain reminds you the joy you felt was real.”"></Box>  </div>
         <div className="background forth">
-          
+          <QuoteBox text="Aaaaa" />
         </div>
-        <div className="background fifth"> </div>
+        <div className="background fifth"><Box text="“Pain reminds you the joy you felt was real.”"></Box> </div>
         <div className="background sixth">
           {" "}
           <a
