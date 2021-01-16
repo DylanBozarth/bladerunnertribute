@@ -14,8 +14,23 @@ export const Dock  = () => {
   useEffect(() => {
     SetAudio(new Audio("theme.mp3"));
   }, []);
+  const floatIn1 = {
+    in: {
+      x: 0
+    },
+    out: {
+      x: '-30vh'
+    },
+  }
+  const floatTransition = {
+    duration: 2
+  }
   return (
-    <motion.div className="  dock">
+    <motion.div initial="out"
+    animate="in"
+    exit="out"
+    variants={floatIn1}
+    transition={floatTransition} className="dock">
     {" "}
     <div className="button" onClick={Playit}>
     
