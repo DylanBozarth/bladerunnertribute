@@ -23,7 +23,7 @@ export const Dock  = () => {
     },
   }
   const floatTransition = {
-    duration: 2
+    duration: 1.5
   }
   return (
     <motion.div initial="out"

@@ -18,11 +18,11 @@ function App() {
           </h1>
         </div>
         <div className="background second"></div>
-        <div className="background third"><Box text="“Pain reminds you the joy you felt was real.”"></Box>  </div>
+        <div className="background third"> <Box text=" AAAAAAA" /> </div>
         <div className="background forth">
-          <QuoteBox text="Aaaaa" />
+          <QuoteBox text='"Pain reminds you that the joy you felt was real."' />
         </div>
-        <div className="background fifth"><Box text="“Pain reminds you the joy you felt was real.”"></Box> </div>
+        <div className="background fifth"> </div>
         <div className="background sixth">
           {" "}
           <a
