@@ -11,18 +11,18 @@ function App() {
   return (
     <div className="master">
       <Dock />
-      <div className="App">
+      <div className="App container-fluid">
         <div className="background first ">
           <h1 className="title text-center ">
             Blade Runner <br /> 2049
           </h1>
         </div>
-        <Box text="“All the courage in the world cannot alter fact.”" />
-        <div className="background second"></div>
+      
+        <div className="background second"><Box text="“All the courage in the world cannot alter fact.”" /></div>
         <div className="background third">  </div>
         <div className="background forth">
           <QuoteBox text='“Pain reminds you the joy you felt was real.”' />
-          <Box text="The world is built on a wall that separates kind. Tell either side there's no wall, you've bought a war. Or a slaughter." />
+         
         </div>
         <div className="background fifth"> </div>
         
